@@ -1,0 +1,36 @@
+{
+  "name": "es6-interpolate-stream",
+  "version": "1.0.0",
+  "description": "A node transform stream which performs es6-style string interpolation on it's source data.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint *.js src/*.js test/index.js",
+    "test": "node test/index.js",
+    "build": "cp src/interpolator.js index.js"
+  },
+  "author": "K. P. MacGregor <phoenixstormcrow@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^4.7.16"
+  },
+  "devDependencies": {
+    "jshint": "^2.6.3",
+    "tape": "^3.5.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phoenixstormcrow/es6-interpolate-stream.git"
+  },
+  "keywords": [
+    "es6",
+    "interpolation",
+    "stream"
+  ],
+  "bugs": {
+    "url": "https://github.com/phoenixstormcrow/es6-interpolate-stream/issues"
+  },
+  "homepage": "https://github.com/phoenixstormcrow/es6-interpolate-stream"
+}
