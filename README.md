@@ -54,4 +54,5 @@ var bar = 5,
 console.log("two plus two is " + 2+2);
 
 ```
-The above example can be run from the `test/` directory, with `node foo.js`.
+The above example can be run from the [`test/` directory](https://github.com/phoenixstormcrow/es6-interpolate-stream/tree/master/test), with `node foo.js`.
+A more [practical example](https://github.com/phoenixstormcrow/es6-interpolate-stream/blob/master/test/template.js) is the template file `test/template.js` used for running the actual test, which is the use-case which prompted the creation of this module, viz: a boilerplate generator for creating custom html elements. That project is [web-component](https://github.com/phoenixstormcrow/web-component), check it out.
