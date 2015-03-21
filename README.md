@@ -25,11 +25,12 @@ console.log("two plus two is " + ${2+2});
 ```
 and you pipe it through `es6-interpolate-stream`:
 ```
-var interpolate = require('es6-interpolate-stream'),
+var interpolate = require('../index'),
     fs = require('fs'),
     context = {
       'hello': 'hello, world!',
-      'bar': 5
+      'bar': 5,
+      'baz': function () { return 'abcdefg'; }
     };
 
 //pipe it on through
