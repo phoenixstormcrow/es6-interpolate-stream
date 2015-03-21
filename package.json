@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "jshint *.js src/*.js test/index.js",
     "test": "node test/index.js",
-    "build": "cp src/interpolator.js index.js"
+    "build": "cp src/interpolator.js index.js",
+    "prepublish": "npm run lint && npm run test && npm run build"
   },
   "author": "K. P. MacGregor <phoenixstormcrow@gmail.com>",
   "license": "MIT",
