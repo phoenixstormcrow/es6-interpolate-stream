@@ -1,6 +1,6 @@
 {
   "name": "es6-interpolate-stream",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A node transform stream which performs es6-style string interpolation on it's source data.",
   "main": "index.js",
   "scripts": {
