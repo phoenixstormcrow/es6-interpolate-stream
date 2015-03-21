@@ -54,4 +54,4 @@ var bar = 5,
 console.log("two plus two is " + 2+2);
 
 ```
-
+The above example can be run from the `test/` directory, with `node foo.js`.
