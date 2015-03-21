@@ -1,0 +1,13 @@
+// foo.template
+/* ${hello} */
+var bar = ${bar},
+    baz = ${baz};
+
+/* the addition will NOT be evaluated,
+   unless of course the context object
+   has a key '2+2'!
+   So the output below will be
+   "two plus two is 22", which is probably
+   not what you want.
+*/
+console.log("two plus two is " + ${2+2});
