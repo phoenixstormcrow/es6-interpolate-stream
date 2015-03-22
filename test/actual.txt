@@ -37,7 +37,7 @@ proto.attributeChangedCallback = function (attr, old, new_) {
 };
 
 
-var Constructor = document.registerElement(Silent Bob, {
+var Constructor = document.registerElement('Silent Bob', {
   prototype: proto
 });
 
