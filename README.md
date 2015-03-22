@@ -7,7 +7,13 @@ A node transform stream which performs es6-style string interpolation on it's so
 # use
 
 This module exports a factory function, which takes a context object as its only parameter, and returns a node Transform stream. This stream reads all of its input, parses it using [babel-core](https://www.npmjs.com/package/babel-core), and replaces expressions of the form `${expression}` with the value of `context[expression]`, where `context` is the object passed to the exported factory function.
-For example, suppose you have a template file:
+
+## examples
+For those, like me, who like pictures, here's a diagram depicting the action of the transform on an html file:
+
+![transform diagram](example.png "example.png")
+
+For those, like me, who like code, suppose you have a template file:
 ```
 // foo.template
 /* ${hello} */
